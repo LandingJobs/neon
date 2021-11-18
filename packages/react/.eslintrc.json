@@ -1,0 +1,6 @@
+{
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": ["tailwind.config.js", "dist", "node_modules"]
+}

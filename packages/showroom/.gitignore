@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+
+# build
+/.turbo
+/storybook-static

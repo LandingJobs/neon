@@ -1,0 +1,63 @@
+:root {
+  --color-silverSand-xxDark: #000000;
+  --color-silverSand-xDark: #4b4b4b;
+  --color-silverSand-dark: #797979;
+  --color-silverSand-mDark: #a2a2a2;
+  --color-silverSand: #c7c7c7;
+  --color-silverSand-mLight: #dadada;
+  --color-silverSand-light: #ededed;
+  --color-silverSand-xLight: #f6f6f6;
+
+  --color-puertoRico-xDark: #006c66;
+  --color-puertoRico-dark: #008f88;
+  --color-puertoRico-mDark: #00b1a8;
+  --color-puertoRico: #00cfc5;
+  --color-puertoRico-mLight: #54e2db;
+  --color-puertoRico-light: #bff3f1;
+  --color-puertoRico-xLight: #e3faf9;
+
+  --color-tuftsBlue-xDark: #003974;
+  --color-tuftsBlue-dark: #00468e;
+  --color-tuftsBlue-mDark: #005bb9;
+  --color-tuftsBlue: #007eff;
+  --color-tuftsBlue-mLight: #2b92fc;
+  --color-tuftsBlue-light: #7bbafa;
+  --color-tuftsBlue-xLight: #d8e9fb;
+
+  --color-ripePlum-xDark: #380849;
+  --color-ripePlum-dark: #5c0e77;
+  --color-ripePlum-mDark: #871aad;
+  --color-ripePlum: #a729d2;
+  --color-ripePlum-mLight: #ca30ff;
+  --color-ripePlum-light: #da94f2;
+  --color-ripePlum-xLight: #f4d6ff;
+  --color-ripePlum-xxLight: #fdf6ff;
+
+  --color-flamingo-xDark: #931502;
+  --color-flamingo-dark: #bc1a02;
+  --color-flamingo-mDark: #d91f04;
+  --color-flamingo-base: #f51f00;
+  --color-flamingo-mLight: #fb563e;
+  --color-flamingo-light: #fa7b68;
+  --color-flamingo-xLight: #fbb5aa;
+
+  --color-jaffa-xDark: #974800;
+  --color-jaffa-dark: #bd5c03;
+  --color-jaffa-mDark: #de6b01;
+  --color-jaffa-base: #ff7a00;
+  --color-jaffa-mLight: #fd9535;
+  --color-jaffa-light: #fdad64;
+  --color-jaffa-xLight: #fbd3af;
+
+  --color-starship-xDark: #a99500;
+  --color-starship-dark: #c8b100;
+  --color-starship-mDark: #e4ca03;
+  --color-starship-base: #ffe100;
+  --color-starship-mLight: #ffed64;
+  --color-starship-light: #fff291;
+  --color-starship-xLight: #fff8c4;
+
+  --color-black-mDark: #000000;
+  --color-black-base: #343434;
+  --color-black-mLight: #797979;
+}

@@ -1,0 +1,4 @@
+{
+  "plugins": ["eslint-plugin-storybook"],
+  "ignorePatterns": ["tailwind.config.js", "dist", "node_modules"]
+}
