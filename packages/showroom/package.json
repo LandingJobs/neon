@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "start-storybook",
     "build": "build-storybook",
-    "chromatic": "npx chromatic"
+    "chromatic": "npx chromatic --exit-once-uploaded"
   },
   "dependencies": {
     "react": "^17.0.2",
