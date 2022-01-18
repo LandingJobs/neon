@@ -6,7 +6,10 @@
     "compile-types": "tsc -p ./tsconfig.json",
     "prebuild": "yarn clean",
     "build": "npx swc src -d dist -D",
-    "postbuild": "yarn compile-types"
+    "postbuild": "yarn compile-types",
+    "dev": "start-storybook",
+    "sb:build": "build-storybook",
+    "sb:deploy": "env-cmd -f .env.local chromatic --exit-once-uploaded"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,19 +18,28 @@
   "private": false,
   "peerDependencies": {
     "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "postcss-cli": "^9.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "tailwindcss": "^3.0.15"
+    "postcss-cli": "^9.1.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.4.12",
+    "@storybook/addon-essentials": "^6.4.12",
+    "@storybook/addon-links": "^6.4.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.4.12",
     "@types/react": "^17.0.35",
     "@types/tailwindcss": "^3.0.2",
-    "swc": "^1.0.11"
+    "autoprefixer": "^10.4.2",
+    "chromatic": "^6.4.0",
+    "env-cmd": "^10.1.0",
+    "eslint-plugin-storybook": "^0.5.5",
+    "swc": "^1.0.11",
+    "tailwindcss": "^3.0.15"
   },
   "dependencies": {
     "@landing-jobs/neon": "1.0.0",
-    "clsx": "^1.1.1"
+    "clsx": "^1.1.1",
+    "postcss": "^8.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

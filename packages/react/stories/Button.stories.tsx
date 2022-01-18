@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { Button } from '@landing-jobs/neon-react'
+import { Button } from '../src'
 
 export * from './ButtonLink.stories'
 

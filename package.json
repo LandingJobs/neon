@@ -8,7 +8,8 @@
     "test": "turbo run test",
     "clean": "turbo run clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
-    "chromatic": "turbo run chromatic"
+    "sb:build": "sb:build",
+    "sb:deploy": "turbo run sb:deploy"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.9.1",
@@ -21,9 +22,14 @@
   "turbo": {
     "baseBranch": "origin/main",
     "pipeline": {
-      "chromatic": {
+      "sb:build": {
         "dependsOn": [
           "build"
+        ]
+      },
+      "sb:deploy": {
+        "dependsOn": [
+          "sb:build"
         ]
       },
       "build": {

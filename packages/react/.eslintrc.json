@@ -2,5 +2,6 @@
   "env": {
     "node": true
   },
-  "ignorePatterns": ["tailwind.config.js", "dist", "node_modules"]
+  "ignorePatterns": ["tailwind.config.js", "dist", "node_modules"],
+  "plugins": ["eslint-plugin-storybook"]
 }
